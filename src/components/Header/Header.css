@@ -1,0 +1,35 @@
+header{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #131313;
+    font-family: 'Inter';
+    border-bottom: 1px solid #EDCE29;   
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+    padding: 14px 0px 14px 24px;
+    width: 42px;
+    height: 42px;
+}
+
+.header-item{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 42px;
+    flex-shrink: 1;
+    flex-wrap: 1;
+    font-style: bold;
+}
+
+.header-item:hover{
+    color: #EDCE29;
+}

@@ -1,0 +1,31 @@
+.main-section{
+    display: grid;
+    justify-content: center;
+    padding-top: 100px;
+    padding: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.main-image{
+    width: 256px;
+    margin:0px auto 0px auto
+    
+}
+
+.main-description{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.main-link{
+    text-decoration: none;
+    color: #EDCE29;
+    font-style: bold;
+}
+
+span{
+    font-size: 14px;
+    color: #4d4d4d;
+}

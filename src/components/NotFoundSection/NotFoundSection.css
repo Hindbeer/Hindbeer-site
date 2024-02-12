@@ -1,0 +1,17 @@
+.not-found-section{
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+}
+
+.not-found-img{
+    margin:0px auto 0px auto;
+    width: 256px;
+}
+
+.not-found-description{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-style: bold;
+}
