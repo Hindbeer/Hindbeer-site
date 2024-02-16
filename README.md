@@ -1,8 +1,19 @@
-# React + Vite
+# Hindbeer-frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+frontend for my site
 
-Currently, two official plugins are available:
+## For installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To work you need [nodejs](https://nodejs.org/en)
+
+```
+npm install
+```
+
+```
+npm run dev
+```
+
+## Links
+
+[youtube](https://youtube.com/@kuve.) | [telegram](https://t.me/fancy_kuve) | [site](https://hindbeer.github.io/Hindbeer-site/)
