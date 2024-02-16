@@ -6,7 +6,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/Hindbeer-site">
+    <BrowserRouter basename="/Hindbeer-site/">
       <Routes>
         <Route path="/projects" element={<ProjectPages />} />
         <Route path="/" element={<HomePage />} />
