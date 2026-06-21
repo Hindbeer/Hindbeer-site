@@ -1,0 +1,65 @@
+:root {
+  --text-color: #eedfc9;
+  --main-text-color: rgba(238, 223, 201, 0.8);
+  --title-3-color: #a2998b;
+  --bg-color: #1a1a1a;
+  --bttn-color: #4e6851;
+  --menu-bttn-color: rgba(238, 223, 201, 0.12);
+  --project-bttn-color: #202020;
+  --project-bttn-color-hover: #252525;
+  --project-bttn-border: rgba(78, 104, 81, 0.25);
+  --project-bttn-border-hover: rgba(78, 104, 81, 0.55);;
+  --border-logo-color: #4e6851;
+  --border: linear-gradient(90deg, transparent 0%, rgba(238, 223, 201, 0.35) 50%, transparent 100%);
+  --bg-gradient: linear-gradient(90deg, rgb(26, 26, 26) 0%, rgba(28, 34, 28, 0.60) 50%, rgb(26, 26, 26) 100%);
+  --shadow: rgba(0, 0, 0, 0.6) 0 10px 15px -3px;
+
+  --font-family: "Roboto", sans-serif;
+
+  --header-height: 55px;
+  --max-width: 1124px;
+
+  font-family: var(--font-family);
+  background: var(--bg-color);
+}
+
+.main {
+  margin: 0 auto;
+  max-width: var(--max-width);
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--text-color);
+}
+
+.title-2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.title-3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--title-3-color);
+
+}
+
+.main-text {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
