@@ -13,7 +13,13 @@ import LinkButton from '../buttons/LinkButton.vue';
                     <span class="kuve">kuve</span>! Sometimes I do <br> something interesting
                 </span>
             </div>
-            <LinkButton />
+            <div class="link-block">
+                <LinkButton title="Telegram" link="https://t.me/kuvedot" icon="ic:baseline-telegram"/>
+                <LinkButton title="GitHub" link="https://github.com/Hindbeer" icon="mdi:github"/>
+                <LinkButton title="Youtube" link="https://www.youtube.com/@kuve." icon="entypo-social:youtube-with-circle"/>
+                <LinkButton title="X.com" link="https://x.com/Kuvedawe" icon="entypo-social:twitter-with-circle"/>
+                <LinkButton title="Email" link="mailto:anonelifof@gmail.com" icon="streamline-ultimate:read-email-at-1-bold"/>
+            </div>
         </div>
     </section>
 </template>
@@ -52,5 +58,13 @@ import LinkButton from '../buttons/LinkButton.vue';
     text-align: center;
     color: var(--text-color);
     font-family: "Roboto", sans-serif;
+}
+
+.link-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px
 }
 </style>

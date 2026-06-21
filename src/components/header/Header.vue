@@ -1,21 +1,30 @@
-<script setup>
-import { ref } from 'vue'
+<script setup lang="ts">
 import LogoButton from '../buttons/LogoButton.vue';
 import MenuButton from '../buttons/MenuButton.vue';
-
-const count = ref(0)
 </script>
 
 <template>
     <header>
         <div class="navigation"> 
-            <LogoButton />
-            <MenuButton />    
+            <LogoButton title="kŭve." href="https://www.youtube.com/watch?v=xvFZjo5PgG0"/>
+            <nav class="menu-bttns">
+                <MenuButton title="Home" href="#home"/> 
+                <MenuButton title="About" href="#about"/> 
+                <MenuButton title="Projects" href="#projects"/> 
+            </nav> 
         </div>
     </header>
 </template>
 
 <style>
+.menu-bttns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    gap: 14px;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;

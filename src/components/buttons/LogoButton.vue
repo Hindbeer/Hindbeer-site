@@ -1,11 +1,16 @@
-<script setup>
-import { ref } from 'vue'
+<script setup lang="ts">
+
+const { title="Text", href=""} = defineProps<{
+    title?: string,
+    src?: string,
+    href?: string,
+}>();
 </script>
 
 <template>
-    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="logo-bttn">
+    <a :href=href class="logo-bttn">
         <img class="tuh" src="/tuh.gif" alt="logo" />
-        <span class="name">kŭve.</span>
+        <span class="name">{{ title }}</span>
     </a>
 </template>
 
